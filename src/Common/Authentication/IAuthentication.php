@@ -24,5 +24,8 @@ interface IAuthentication
      *
      * @access public
      */
-    public function authenticate($username, $password);
+    public function __construct($posting);
+
+    public function authenticate();
+
 }
